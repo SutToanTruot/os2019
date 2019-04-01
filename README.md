@@ -10,7 +10,6 @@ Students are expected to:
 Student Info
 =======================
 
-* Name: *Put your name here*
-* ID: *Put your ID here*
-
+* Name: Nguyen Tuan Hiep  
+* ID: Bi8-063
 
