@@ -1,0 +1,48 @@
+hiep@hiep-VirtualBox:~$ echo hello world
+hello world
+hiep@hiep-VirtualBox:~$ passwd
+Changing password for hiep.
+(current) UNIX password: 
+passwd: Authentication token manipulation error
+passwd: password unchanged
+hiep@hiep-VirtualBox:~$ date
+ច ៤  1 10:49:21 ICT 2019
+hiep@hiep-VirtualBox:~$ hostname
+hiep-VirtualBox
+hiep@hiep-VirtualBox:~$ dmesg
+status 1
+[   36.849716] init: plymouth-upstart-bridge main process ended, respawning
+[   48.211000] audit: type=1400 audit(1554089799.418:66): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/cups/backend/cups-pdf" pid=1468 comm="apparmor_parser"
+[   48.211021] audit: type=1400 audit(1554089799.418:67): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/sbin/cupsd" pid=1468 comm="apparmor_parser"
+[   48.217506] audit: type=1400 audit(1554089799.426:68): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/sbin/cupsd" pid=1468 comm="apparmor_parser"
+hiep@hiep-VirtualBox:~$ uname -a
+Linux hiep-VirtualBox 3.16.0-30-generic #40~14.04.1-Ubuntu SMP Thu Jan 15 17:43:14 UTC 2015 x86_64 x86_64 x86_64 GNU/Linux
+hiep@hiep-VirtualBox:~$ uptime
+ 10:49:37 up 13 min,  2 users,  load average: 0.27, 0.51, 0.54
+hiep@hiep-VirtualBox:~$ who am i
+hiep     pts/0        2019-04-01 10:48 (:0)
+hiep@hiep-VirtualBox:~$ whoami
+hiep
+hiep@hiep-VirtualBox:~$ who
+hiep     :0           2019-04-01 10:36 (:0)
+hiep     pts/0        2019-04-01 10:48 (:0)
+hiep@hiep-VirtualBox:~$ id
+uid=1000(hiep) gid=1000(hiep) groups=1000(hiep),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),108(lpadmin),124(sambashare)
+hiep@hiep-VirtualBox:~$ last
+hiep     pts/0        :0               Mon Apr  1 10:48   still logged in   
+hiep     pts/0        :0               Mon Apr  1 10:41 - 10:48  (00:06)    
+hiep     pts/0        :0               Mon Apr  1 10:38 - 10:41  (00:03)    
+hiep     :0           :0               Mon Apr  1 10:36   still logged in   
+reboot   system boot  3.16.0-30-generi Mon Apr  1 10:36 - 10:49  (00:13)    
+
+wtmp begins Mon Apr  1 10:36:25 2019
+hiep@hiep-VirtualBox:~$ finger
+wThe program 'finger' is currently not installed. You can install it by typing:
+sudo apt-get install finger
+hiep@hiep-VirtualBox:~$ w
+ 10:49:50 up 13 min,  2 users,  load average: 0.35, 0.52, 0.54
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+hiep     :0       :0               10:36   ?xdm?   3:48   0.41s init --user
+hiep     pts/0    :0               10:48    7.00s  0.13s  0.00s w
+hiep@hiep-VirtualBox:~$ 
+
