@@ -1,0 +1,25 @@
+hiep@hiep-Inspiron-3558:~$ find| grep "List"
+./Downloads/List
+
+hiep@hiep-Inspiron-3558:~$ sudo
+usage: sudo -h | -K | -k | -V
+usage: sudo -v [-AknS] [-g group] [-h host] [-p prompt] [-u user]
+usage: sudo -l [-AknS] [-g group] [-h host] [-p prompt] [-U user] [-u user]
+            [command]
+usage: sudo [-AbEHknPS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] [VAR=value] [-i|-s] [<command>]
+usage: sudo -e [-AknS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] file ...
+
+hiep@hiep-Inspiron-3558:~$ free
+              total        used        free      shared  buff/cache   available
+Mem:        3947332     1751680      866104      320980     1329548     1637052
+Swap:       8000508           0     8000508
+
+hiep@hiep-Inspiron-3558:~$ grep -c ^processor /proc/cpuinfo
+4
+
+hiep@hiep-Inspiron-3558:~$ find . -name ".jpg" | wc -l
+0
+
+
