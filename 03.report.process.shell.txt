@@ -1,4 +1,4 @@
-hiep@hiep-Inspiron-3558:~$ ps aux
+1. hiep@hiep-Inspiron-3558:~$ ps aux
 USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
 root         1  0.1  0.2 225428  9248 ?        Ss   08:48   0:04 /sbin/init spla
 root         2  0.0  0.0      0     0 ?        S    08:48   0:00 [kthreadd]
@@ -252,7 +252,7 @@ hiep      3676  0.0  0.1 206008  6084 ?        Ssl  09:54   0:00 /usr/lib/gvfs/g
 root      3721  0.0  0.0      0     0 ?        I    09:57   0:00 [kworker/0:1-ev
 hiep      3727  2.0  0.0  48312  3840 pts/0    R+   09:58   0:00 ps aux
 
-hiep@hiep-Inspiron-3558:~$ gnome-calculator
+2. hiep@hiep-Inspiron-3558:~$ gnome-calculator
 main.go:224: cannot change mount namespace of snap "gnome-calculator" according to change mount (/snap/gtk-common-themes/818/share/icons/Suru /snap/gnome-calculator/260/data-dir/icons/Suru none bind,ro 0 0): cannot use "/snap/gtk-common-themes/818/share/icons/Suru" as bind-mount source: not a directory
 Fontconfig warning: "/etc/fonts/conf.avail/53-monospace-lcd-filter.conf", line 10: Having multiple values in <test> isn't supported and may not work as expected
 
@@ -276,42 +276,19 @@ Fontconfig warning: "/etc/fonts/conf.avail/53-monospace-lcd-filter.conf", line 1
 
 ** (gnome-calculator:3730): WARNING **: 09:59:06.950: currency.vala:412: Currency VEF is not provided by IMF or ECB
 
-hiep@hiep-Inspiron-3558:~$ gnome-calculator
-main.go:224: cannot change mount namespace of snap "gnome-calculator" according to change mount (/snap/gtk-common-themes/818/share/icons/Suru /snap/gnome-calculator/260/data-dir/icons/Suru none bind,ro 0 0): cannot use "/snap/gtk-common-themes/818/share/icons/Suru" as bind-mount source: not a directory
-Fontconfig warning: "/etc/fonts/conf.avail/53-monospace-lcd-filter.conf", line 10: Having multiple values in <test> isn't supported and may not work as expected
 
-** (gnome-calculator:3730): WARNING **: 09:59:06.950: currency.vala:412: Currency BHD is not provided by IMF or ECB
-
-** (gnome-calculator:3730): WARNING **: 09:59:06.950: currency.vala:412: Currency IRR is not provided by IMF or ECB
-
-** (gnome-calculator:3730): WARNING **: 09:59:06.950: currency.vala:412: Currency KZT is not provided by IMF or ECB
-
-** (gnome-calculator:3730): WARNING **: 09:59:06.950: currency.vala:412: Currency LKR is not provided by IMF or ECB
-
-** (gnome-calculator:3730): WARNING **: 09:59:06.950: currency.vala:412: Currency LYD is not provided by IMF or ECB
-
-** (gnome-calculator:3730): WARNING **: 09:59:06.950: currency.vala:412: Currency NPR is not provided by IMF or ECB
-
-** (gnome-calculator:3730): WARNING **: 09:59:06.950: currency.vala:412: Currency PKR is not provided by IMF or ECB
-
-** (gnome-calculator:3730): WARNING **: 09:59:06.950: currency.vala:412: Currency TND is not provided by IMF or ECB
-
-** (gnome-calculator:3730): WARNING **: 09:59:06.950: currency.vala:412: Currency UYU is not provided by IMF or ECB
-
-** (gnome-calculator:3730): WARNING **: 09:59:06.950: currency.vala:412: Currency VEF is not provided by IMF or ECB
-
-hiep@hiep-Inspiron-3558:~$ ps aux | grep gnome-calculator
+3. hiep@hiep-Inspiron-3558:~$ ps aux | grep gnome-calculator
 hiep      4383  0.0  0.0  23076  1044 pts/0    S+   10:04   0:00 grep --color=auto gnome-calculator
-
-hiep@hiep-Inspiron-3558:~$ <id>
-bash: syntax error near unexpected token `newline'
 
 hiep@hiep-Inspiron-3558:~$ ps aux |grep gnome-calculator
 hiep      7326  7.5  0.9 795704 39288 pts/0    Sl+  10:32   0:02 gnome-calculator
 
-hiep@hiep-Inspiron-3558:/proc/7326$ kill -STOP 7326
+4. hiep@hiep-Inspiron-3558:~$ ps aux | grep /proc/3503/status
+hiep      4492  0.0  0.0  23076  1088 pts/0    S+   15:12   0:00 grep --color=auto /proc/3503/status
 
-hiep@hiep-Inspiron-3558:/proc/7326$ kill - CONT 7326
+5. hiep@hiep-Inspiron-3558:/proc/7326$ kill -STOP 7326
 
-hiep@hiep-Inspiron-3558:/proc/7326$ kill - KILL 7326
+6. hiep@hiep-Inspiron-3558:/proc/7326$ kill - CONT 7326
+
+7. hiep@hiep-Inspiron-3558:/proc/7326$ kill - KILL 7326
 
