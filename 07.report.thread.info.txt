@@ -1,0 +1,10 @@
+hiep@hiep-Inspiron-3558:~$ ps aux | grep -i firefox
+hiep      1831 14.7  8.7 2617384 345468 tty2   Sl+  13:41   3:16 /usr/lib/firefox/firefox -new-window
+hiep      1909  3.8  4.7 1778392 186916 tty2   Sl+  13:41   0:50 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -p
+
+hiep@hiep-Inspiron-3558:~$ ps -o nlwp 2009
+NLWP
+  24
+
+hiep@hiep-Inspiron-3558:~$ ls /proc/2009/task |wc
+     24      24     120
