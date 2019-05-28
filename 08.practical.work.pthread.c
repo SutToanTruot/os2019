@@ -78,9 +78,9 @@ int main() {
     printf("Welcome to chicken shop\n");
     printf("Thank you for coming\n");
     pthread_create(&tid, NULL, producerThread, NULL);
-    pthread_join(tid, NULL);
-    printf("2 customer are coming to buy chickens\n");
+    printf("2 customers are coming to buy chickens\n");
     pthread_create(&tid, NULL, consumerThread, NULL);
+    pthread_join(tid, NULL);
     pthread_join(tid, NULL);
     pthread_exit(NULL);
 }
